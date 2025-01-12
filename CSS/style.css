@@ -1,16 +1,25 @@
+
+  .main{
+    font-family: Fira Sans;
+    margin: 20px 100px; 
+    gap:80;
+    text-align: left;
+    display:flex;
+    flex-direction: column;  
+  }
  .banner{
 display: flex;
 justify-content: flex-start;
-align-items: flex-start;;
+align-items: flex-start;
 border-radius: 28px;
 background: rgb(198, 228, 214);
-margin: 20px 100px;
-padding: 80px 100px 80px 100px;
-/* width: 980px;  */
+margin: 20px 10px 20px 10px; 
+padding: 80px 100px 80px 100px;  
+ 
  }
 .banner-titel{
 color: rgba(14, 14, 14, 0.5);
-font-family: Fira Sans;
+
 font-size: 24px;
 font-weight: 500; 
 line-height: 29px; 
@@ -18,7 +27,6 @@ text-align: left;
 }
  .banner-content{
 color: rgb(14, 14, 14);
-font-family: Fira Sans;
 font-size: 50px;
 font-weight: 700;
 width: 520px;
@@ -39,3 +47,98 @@ width: 520px;
 width: 474px;
 height: auto;
 }
+.section-titel{
+  color: rgb(14, 14, 14);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+}
+.section-description{
+color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+ .vision{
+  
+    display: flex;
+    margin: 80px 100px;
+  }
+ 
+.vision-container
+{
+  display: flex;
+  gap: 24px;
+
+}
+.vision-description{
+  padding: 32px;
+}
+.vision-types1{
+  font-weight: 700;
+margin: 0px 24px;
+padding: 32px;
+box-sizing: border-box;
+border-radius: 16px;
+
+background: rgba(84, 144, 245, 0.2);
+
+}
+.vision-types2{
+  font-weight: 700;
+ margin: 0px 24px;
+padding: 32px;
+
+box-sizing: border-box;
+border-radius: 16px;
+
+background: rgb(198, 228, 214);
+}
+.vision-types3{
+  font-weight: 700;
+  margin: 0px 24px;
+padding: 32px;
+  box-sizing: border-box;
+border-radius: 16px;
+
+background: rgb(247, 235, 207);
+}
+ .visoin .vision-description{
+color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+} 
+.bt1{
+padding: 11px 20px 11px 20px;
+margin: 24px 0px;
+color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 600;
+border-radius: 8px;
+background: rgb(84, 144, 245);
+}
+.bt2{
+padding: 11px 20px 11px 20px;
+margin: 24px 0px;
+color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 600;
+border-radius: 8px;
+background-color:rgb(9, 161, 92);
+}
+.bt3{
+padding: 11px 20px 11px 20px;
+margin: 24px 0px;
+color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 600;
+border-radius: 8px;
+background-color:rgb(255, 194, 57);
+}
+
+
+
