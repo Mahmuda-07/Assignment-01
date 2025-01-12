@@ -1,0 +1,41 @@
+ .banner{
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;;
+border-radius: 28px;
+background: rgb(198, 228, 214);
+margin: 20px 100px;
+padding: 80px 100px 80px 100px;
+/* width: 980px;  */
+ }
+.banner-titel{
+color: rgba(14, 14, 14, 0.5);
+font-family: Fira Sans;
+font-size: 24px;
+font-weight: 500; 
+line-height: 29px; 
+text-align: left;
+}
+ .banner-content{
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 50px;
+font-weight: 700;
+width: 520px;
+
+ }
+ .btn{ 
+  border-radius: 10px; 
+  margin: 24px 0px;
+  padding: 17px 34px 17px 34px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600; 
+  background: rgb(0, 106, 80); 
+ }
+
+.banner-pic
+{
+width: 474px;
+height: auto;
+}
